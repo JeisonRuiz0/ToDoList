@@ -1,0 +1,30 @@
+@import '../../vars.scss';
+
+.TodoList-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: $background;
+}
+
+
+.TodoList__addTodo{
+    display: flex;
+    flex-direction: row;
+    padding: 10rem 0;
+}
+
+.TodoList__addTodo input{
+    margin: 0 2rem;
+}
+
+.TodoList__addTodo button{
+    margin: 0 2rem;
+}
+
+
+
+

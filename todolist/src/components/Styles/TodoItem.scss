@@ -1,0 +1,17 @@
+@import '../../vars.scss';
+
+.TodoItem-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TodoItem__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  60px;
+    border-radius: 20px;
+    margin: 2rem 2rem ;
+}
