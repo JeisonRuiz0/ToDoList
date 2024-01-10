@@ -32,7 +32,9 @@ const ToDoList = () => {
 
     return (
         <div className="TodoList-container">
+            
             <div className="TodoList-img">
+                <h1>hola como vamos bien o que</h1>
                 <img src={imgBackground}/>
             </div>
             <div className="TodoList-List">
@@ -65,9 +67,6 @@ const ToDoList = () => {
                 </div>
             </div>
             
-            <div className="TodoList-User">
-                    <h1>hola</h1>
-            </div>
 
 
         </div>

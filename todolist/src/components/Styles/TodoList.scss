@@ -2,7 +2,7 @@
 
 .TodoList-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -11,16 +11,22 @@
 }
 
 .TodoList-img{
-    position: absolute;
-    top: -20px;
-    right: -50px;
+    
+    
 }
 
 
 .TodoList-img img{
-    width: 30rem;
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    width: 40rem;
 }
+.TodoList-img h1{
+    color: #979797;
+    margin-bottom: 10px; /* Ajusta según necesites */
 
+}
 .TodoList-List {
     display: flex;
     width: 70%;
