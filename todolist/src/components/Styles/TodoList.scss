@@ -1,8 +1,8 @@
 @import '../../vars.scss';
 
-.TodoList-container{
+.TodoList-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -10,21 +10,48 @@
     background-color: $background;
 }
 
+.TodoList-img{
+    position: absolute;
+    top: -20px;
+    right: -50px;
+}
 
-.TodoList__addTodo{
+
+.TodoList-img img{
+    width: 30rem;
+}
+
+.TodoList-List {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TodoList-User {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #aaaa;
+    border-radius: 61px 0px 0px 200px;
+    -moz-border-radius: 61px 0px 0px 200px;
+    -webkit-border-radius: 61px 0px 0px 200px;
+    border: 0px solid #000000;
+    width: 20%;
+    height: 100vh;
+}
+
+.TodoList__addTodo {
     display: flex;
     flex-direction: row;
     padding: 10rem 0;
 }
 
-.TodoList__addTodo input{
+.TodoList__addTodo input {
     margin: 0 2rem;
 }
 
-.TodoList__addTodo button{
+.TodoList__addTodo button {
     margin: 0 2rem;
 }
-
-
-
-
